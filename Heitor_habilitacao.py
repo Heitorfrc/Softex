@@ -17,13 +17,13 @@ rodas = int(input("Digite o número de rodas do veículo: "))
 peso = float(input("Digite o peso bruto em Kg do veículo: "))
 pessoas = int(input("Digite o número de pessoas no veículo: "))
 
-if rodas > 4 and pessoas < 8 and peso < 6000 :
+if rodas == 4 and pessoas <= 8 and peso <= 3500 :
     print("A categoria de habilitaçâo do veículo é B")
-elif rodas > 4 and peso < 6000 :
+elif rodas >= 4 and peso <= 6000 :
     print("A categoria de habilitaçâo do veículo é C")
-elif rodas > 4 and pessoas > 8 :
+elif rodas >= 4 and pessoas > 8 :
     print("A categoria de habilitaçâo do veículo é D")
-elif rodas > 4 and peso > 6000 :
+elif rodas >= 4 and peso > 6000 :
     print("A categoria de habilitaçâo do veículo é E")
 elif rodas < 4 and rodas > 1 :
     print("A categoria de habilitaçâo do veículo é A")
