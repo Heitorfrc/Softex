@@ -40,8 +40,11 @@ def entra_valores():
 
 while True:
     imprime_opcoes()
-    operacao = int(input("Digite o código da operação: "))
-    if(operacao == 0):
-        break
-    resultado = calculadora(operacao)
-    print ("Resultado: ", resultado)
+    try :
+        operacao = int(input("Digite o código da operação: "))
+        if(operacao == 0):
+            break
+        resultado = calculadora(operacao)
+        print ("Resultado: ", resultado)
+    except :
+        print ("Erro")
