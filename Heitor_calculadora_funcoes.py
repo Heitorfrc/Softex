@@ -23,7 +23,10 @@ def calculadora(oper):
     elif oper == 3 :
         return num1 * num2
     elif oper == 4 :
-        return num1 / num2
+        if num2 != 0 :
+            return num1 / num2
+        else :
+            raise Exception("Não é possível dividir por zero")
     
 def imprime_opcoes():
     print ("Esses são os codigos das operações:")
@@ -46,5 +49,6 @@ while True:
             break
         resultado = calculadora(operacao)
         print ("Resultado: ", resultado)
-    except :
-        print ("Erro")
+    except Exception as e :
+        print("Erro")
+        print (e)
