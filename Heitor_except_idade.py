@@ -18,7 +18,8 @@ while(perguntas) :
         if ano < 1922 or ano > 2021 :
             print("O ano inserido deve ser entre 1922 e 2021")
         else :
-            print(idadeCalc(ano))
+            print("Seu nome é", nome)
+            print("E sua idade ao final de 2022 é", idadeCalc(ano), "anos")
             perguntas = False
     except Exception as e :
         print("Erro, valor inserido incorretamente")
