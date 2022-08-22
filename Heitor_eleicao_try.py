@@ -19,6 +19,11 @@ y = 0
 z = 0
 n = 0
 
+print ("O número do candidato X é 889")
+print ("O número do candidato Y é 847")
+print ("O número do candidato Z é 515")
+print ("Para branco vote 0, para nulo vote em quaisquer outro número")
+
 while True :
     try :
         voto = int(input("Digite o número do candidato do seu voto: "))
