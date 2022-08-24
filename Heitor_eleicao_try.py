@@ -19,34 +19,28 @@ y = 0
 z = 0
 n = 0
 
-print ("O número do candidato X é 889")
-print ("O número do candidato Y é 847")
-print ("O número do candidato Z é 515")
-print ("Para branco vote 0, para nulo vote em quaisquer outro número")
+def imprime_opcoes():
+    print ("O número do candidato X é 889")
+    print ("O número do candidato Y é 847")
+    print ("O número do candidato Z é 515")
+    print ("Para branco vote 0, para nulo vote em quaisquer outro número")
 
 while True :
     try :
+        imprime_opcoes()
         voto = int(input("Digite o número do candidato do seu voto: "))
         if voto == 889 :
-            x += 1
-            encerrar = str(input("Aperte x para encerrar a votação, ou qualquer outra tecla para continuar: "))
-            if encerrar == "x" :
-                break
+            x += 1      
         elif voto == 847 :
             y += 1
-            encerrar = str(input("Aperte x para encerrar a votação, ou qualquer outra tecla para continuar: "))
-            if encerrar == "x" :
-                break
         elif voto == 515 :
             z += 1
-            encerrar = str(input("Aperte x para encerrar a votação, ou qualquer outra tecla para continuar: "))
-            if encerrar == "x" :
-                break
         else :
             n += 1
-            encerrar = str(input("Aperte x para encerrar a votação, ou qualquer outra tecla para continuar: "))
-            if encerrar == "x" :
-                break
+                
+        encerrar = str(input("Aperte x para encerrar a votação, ou qualquer outra tecla para continuar: "))
+        if encerrar == "x" :
+            break
     except :
         print("Erro, utilize números para votar")
 
