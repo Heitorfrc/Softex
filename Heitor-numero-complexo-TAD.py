@@ -20,12 +20,12 @@ print ("A parte real do número subtraído é : ", d.real)
 print ("A parte imaginária do número subtraído é : ", d.imag)
 
 e = a * b
-print ("A parte real do número subtraído é : ", e.real)
-print ("A parte imaginária do número subtraído é : ", e.imag)
+print ("A parte real do número dividido é : ", e.real)
+print ("A parte imaginária do número dividido é : ", e.imag)
 
 f = a / b
-print ("A parte real do número subtraído é : ", f.real)
-print ("A parte imaginária do número subtraído é : ", f.imag)
+print ("A parte real do número multiplicado é : ", f.real)
+print ("A parte imaginária do número multiplicado é : ", f.imag)
 
 
 
