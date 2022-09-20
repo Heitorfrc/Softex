@@ -1,8 +1,6 @@
 '''
 Crie uma classe de sua preferência com, no mínimo, uma variável, um método e um incremento. Depois, desenvolva 
 três ou mais objetos para testar o código.
-Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo 
-ao lado para que outros desenvolvedores possam analisá-lo.
 '''
 
 class Funcionario :
