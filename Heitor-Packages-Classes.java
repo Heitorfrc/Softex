@@ -12,16 +12,16 @@ public class Caneta {
         Scanner cane = new Scanner(System.in);
         System.out.println("Qual a quantidade de caneta?");
         qntCane = cane.nextLine();
-        System.out.println("Your Name IS : " + qntCane);
+        System.out.println("A quantidade de canetas é: " + qntCane);
     }
 }
 
 public class Lapis {
     public static void main(Int[] args) {
         Scanner lap = new Scanner(System.in);
-        System.out.println("Qual a quantidade de caneta?");
+        System.out.println("Qual a quantidade de lápis?");
         qntLap = cane.nextLine();
-        System.out.println("Your Name IS : " + qntLap); 
+        System.out.println("A quantidade de lápis é: " + qntLap); 
     }
 }
 
