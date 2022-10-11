@@ -8,28 +8,31 @@ import java.io.*;
 import java.util.*;
 
 public class Caneta {
-    public static void main(Int[] args) {
-        Scanner lap = new Scanner(System.in);
+    public static void defineQuantidadeDeCaneta() {
+        Scanner cane = new Scanner(System.in);
         System.out.println("Qual a quantidade de caneta?");
-        qntCane = cane.nextLine();
+        int qntCane = cane.nextInt();
         System.out.println("A quantidade de canetas é: " + qntCane);
     }
 }
 
 public class Lapis {
-    public static void main(Int[] args) {
+    public static void defineQuantidadeDeLapis() {
         Scanner lap = new Scanner(System.in);
         System.out.println("Qual a quantidade de lápis?");
-        qntLap = cane.nextLine();
+        int qntLap = lap.nextInt();
         System.out.println("A quantidade de lápis é: " + qntLap); 
     }
 }
 
 package br.com.papelaria.conta;
 
-public class Cliente {
+import br.com.papelaria.inventorio.Caneta;
+import br.com.papelaria.inventorio.Lapis;
+
+public class Main{
     public static void main(Int[] args) {
-        String nomeCliente;
-        Int codCliente;
+        Caneta.defineQuantidadeDeCaneta();
+        Lapis.defineQuantidadeDeLapis();
     }
 }
