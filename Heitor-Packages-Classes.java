@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Caneta {
     public static void main(Int[] args) {
-        Scanner cane = new Scanner(System.in);
+        Scanner lap = new Scanner(System.in);
         System.out.println("Qual a quantidade de caneta?");
         qntCane = cane.nextLine();
         System.out.println("A quantidade de canetas é: " + qntCane);
