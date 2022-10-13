@@ -9,7 +9,6 @@ frase = str(input("Escreva uma frase: "))
 maiusculo = frase.upper()
 titulo = frase.title()
 qntDoCaractere = frase.count("a")
-qntLetras = frase.
 
 print("Sua frase gritando:")
 print(maiusculo, "!!", sep="")
